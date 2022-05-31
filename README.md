@@ -24,7 +24,7 @@ This method requires a single parameter of type ElectionMethod. ElectionMethod i
 
 ### The predictResults() method
 
-This method simply calls predictResult() once for each of the result methods. A mix of Lambda expressions and method references are used for the four result methods.
+This method simply calls predictResult() once for each of the result methods. A mix of Lambda expressions and method references are used for the result methods.
 
 ### The extractCandidate() method
 
