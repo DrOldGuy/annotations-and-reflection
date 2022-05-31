@@ -17,7 +17,6 @@ The result method names must start with "predict". If the method name does not s
 * **predictPresident** - The method name is correct and it has an @Candidate annotation.
 * **predictSecretary** - The method name is correct and it has an @Candidate annotation.
 * **electTreasurer** - The method name is incorrect.
-* **predictCoroner** - The method name is correct but there is no @Candidate annotation.
 
 ### The predictResult() method
 
