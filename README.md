@@ -34,5 +34,5 @@ The extractCandidate() method is called by each result method. It works as follo
 1. If the caller method name does not start with "predict", throw an exception.
 1. The candidate's office is obtained from the method name after "predict" (i.e., method predictPresident yields the office of president).
 1. A Method object is obtained by using Java Reflection on the ElectionPredicter class.
-1. The @Candidate annotation is obtained from the Method object. If the method does not have an @Candidate annotation an exception is thrown.
+1. The @Candidate annotation is obtained from the Method object.
 1. A message is formatted and printed using information in the @Candidate annotation.
